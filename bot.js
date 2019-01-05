@@ -23,15 +23,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '!say'){
-       
-       
         message.channel.send('#credit')
     }
 });
 
 client.on('message', message => {
     if(message.content === '1say'){
-        message.channel.send('1say @- FT, laith#7072 5000')
+        message.channel.send('1say @- FT, laith 5000')
     }
 });
 

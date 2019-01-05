@@ -30,8 +30,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '1say'){
+        message.channel.send('1say @- FT, laith#7072 5000')
     }
 });
 

@@ -29,7 +29,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '1say'){
-        message.channel.send('1say @- FT, laith 5000')
+        message.channel.send(' @- FT, laith 5000')
     }
 });
 

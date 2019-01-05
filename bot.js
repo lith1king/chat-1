@@ -29,7 +29,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '1say'){
-        message.channel.send(' #credit @- FT, laith#7072 5000')
+        message.channel.send(' #credit @- FT, laith#7072 20')
     }
 });
 
